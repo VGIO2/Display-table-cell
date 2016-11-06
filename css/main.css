@@ -2,7 +2,7 @@
     font-family:'Dosis';
     font-style: normal;
     font-weight: 400;
-    src: local('Dosis Regular'), local('Dosis-Regular'), url(http://themes.googleusercontent.com/static/fonts/dosis/v1/xIAtSaglM8LZOYdGmG1JqQ.woff) format('woff');
+    src: local('Dosis Regular'), local('Dosis-Regular'), url(https://themes.googleusercontent.com/static/fonts/dosis/v1/xIAtSaglM8LZOYdGmG1JqQ.woff) format('woff');
 }
 body, div, h1, h2, h3, h4, h5, h6, 
 p, ul, ol, li, dl, dt, dd, img, form, 
@@ -13,51 +13,47 @@ fieldset, input, textarea, blockquote {
 }
 body {
     background: #ffffff;
-    font-family: 'Dosis';
 }
 
 /* completa tu codigo aqui */
-.caja{
-    height: 100px;
+.box{
 	width: 100px;
-    display: table-cell;
-	font-size: 16px;
-    text-decoration: none; 
-    text-transform: uppercase;
-    vertical-align: middle;
-    
+	height: 100px;
+    display:inline-table;
+	text-decoration: none;  
+}
+.celeste {
+    background-color: #59adf7;
+    color: #59adf7;
+}
+.verde {
+    background-color: #2cff2c;
+    color: #2cff2c;
+}
+.naranja {
+    background-color: #f4a82f;
+    color: #f4a82f; 
+}
+.rosado {
+    background-color: #ed79f7;
+    color: #ed79f7;
+}
+.caja{
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    margin-left: 100px;
+    display: none;
 }
 
-.celeste{
-    background: #0af8e6;
-    color: #0af8e6;
-}
-.verde{
-    background: #0adb4a;
-    color: inherit;
-}
-.naranja{
-    background: #f8af0a;
-    color: inherit;
-}
-.rosado{
-    background: #f778da;
-    color:inherit;
+a:hover .caja{
+    display: inline-block;
 }
 
 li{
     display: block;
-	font-family: 'Dosis'; 
 }
-
-.black{
-    width: inherit;
-    height: inherit;
-    display:none;
-    background-color: black;
-    margin-left: 100px;   
-}
-
-a:hover .black{
-    display: block;
+li a span{
+    text-transform: uppercase;
+    vertical-align: middle;
 }
