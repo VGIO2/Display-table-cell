@@ -20,7 +20,7 @@ body {
 .box{
 	width: 100px;
 	height: 100px;
-    display: block;
+    display: table-cell;
     text-transform: uppercase;
     text-decoration: none;
     font-family:'Dosis';
