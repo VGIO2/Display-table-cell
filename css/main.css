@@ -21,14 +21,15 @@ body {
 	width: 100px;
 	height: 100px;
     display: table-cell;
-    vertical-align: middle;
-    
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family:'Dosis';
 }
 
 li{
-    display: block;
-    
+    display: block;  
 }
+
 .celeste {
     background-color: #59adf7;
     color: #59adf7;
@@ -57,8 +58,11 @@ a:hover .caja{
     display: block;
 }
 
-    
-}
+
+
+
+
+
 
 
 
